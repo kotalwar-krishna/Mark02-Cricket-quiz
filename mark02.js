@@ -6,9 +6,10 @@ console.log('Hello ' + username + ", Let's Play the Quiz!!");
 
 console.log('\n');
 console.log('Rules & Instructions: ');
-console.log('1.',username + ', There are 5 Questions on India and all are Compulsory.');
-console.log('2. You will get 1 points on each Right Answer.');
-console.log('3. One Point will be deducted if the Answer is Wrong.');
+console.log('1.',username + ', There are 5 Questions on cricket and all are Compulsory.');
+console.log('2. You have to type Full answer not option.');
+console.log('3. You will get 1 points on each Right Answer.');
+console.log('4. One Point will be deducted if the Answer is Wrong.');
 console.log('\n');
 
 let score = 0;
@@ -16,23 +17,23 @@ let score = 0;
 
 var questionsList = [ 
   {
-    question : 'Who won the first ever Cricket World Cup in 1975? 1.Australia 2.England 3.India 4.West Indies: \n',
+    question : 'Q. Who won the first ever Cricket World Cup in 1975? 1.Australia 2.England 3.India 4.West Indies: \n',
     answer : 'West Indies',
   },
   {
-    question : 'Which is the largest cricket stadium in the world? 1.Eden Gardens 2.Melbourne Cricket Club 3.Lords 4.Narendra Modi Stadium: \n',
+    question : 'Q. Which is the largest cricket stadium in the world? 1.Eden Gardens 2.Melbourne Cricket Club 3.Lords 4.Narendra Modi Stadium: \n',
     answer : 'Narendra Modi Stadium',
   }, 
   {
-    question : 'What is the nickname of Sachin Tendulkar? 1.The Little Genius 2.The Little Master 3.The God of Cricket 4.Master Blaster: \n',
+    question : 'Q. What is the nickname of Sachin Tendulkar? 1.The Little Genius 2.The Little Master 3.The God of Cricket 4.Master Blaster: \n',
     answer : 'The Little Master',
   }, 
   {
-    question : 'Which Australian player has scored the most test runs? 1.Steve Waugh 2.Don Bradman 3.Ricky Ponting 4.Matthew Hayden: \n',
+    question : 'Q. Which Australian player has scored the most test runs? 1.Steve Waugh 2.Don Bradman 3.Ricky Ponting 4.Matthew Hayden: \n',
     answer : 'Ricky Pontingr',
   },
    {
-    question : 'Who won the first ever Cricket T20 World Cup in 2007? 1.Australia 2.England 3.India 4.West Indies: \n',
+    question : 'Q. Who won the first ever Cricket T20 World Cup in 2007? 1.Australia 2.England 3.India 4.West Indies: \n',
     answer : 'India',
   }
 ];
