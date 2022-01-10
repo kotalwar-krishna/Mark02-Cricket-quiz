@@ -38,7 +38,7 @@ var questionsList = [
   }
 ];
 
-function quiz(question,answer){
+let quiz = (question,answer) => {
     let userAnswer = readlineSync.question(question);
 
     if(userAnswer.toLowerCase() == answer.toLowerCase()){
